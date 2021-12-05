@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body{
+    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Russo One', sans-serif; */
+    background-color: #171717;
+}
+#intro{
+    min-height: 700px;
+    position: relative;
+    background-image: url("BG6.jpeg");
+    /* background-color: #171717; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:lightgray;
+    background-attachment: fixed;
+}
+#contact{
+    background-color: lightgray;
+}
+#title{
+    font-size: 100px;
+    padding-top: 270px;
+}
+#service{
+    background-color: lightgray;
+}
+#con{
+    min-height: 400px;
+    position: relative;
+    background-color: #171717;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:lightgrey;
+    background-attachment: fixed;
+}
+#text{
+    font-size: 50px;
+    padding-top: 70px;
+}
+#text-2{
+    font-size: 50px;
+    padding-top: 70px;
+}
+#facebook{
+    font-size: x-large;
+    position: relative;
+    bottom: 10px;
+}
+#ins{
+    font-size: x-large;
+    position: relative;
+    bottom: 10px;
+}
+#f{
+    color: lightgray;
+}
+#i{
+    color: lightgray;
+}
+#gallary{
+    color: lightgray;
+    font-size: x-large;
+}
+#certificate{
+    /* background-image: url("pic/832201.jpg"); */
+    background-color: #171717;
+}
+#pro{
+    min-height: 1000px;
+    position: relative;
+    background-color: #171717;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:lightgrey;
+    background-attachment: fixed;
+}
+#mypic{
+    width: 400px;
+    height: 600px;
+}
+#bio{
+    font-size: larger;
+}
+#mypro{
+    color: lightgray;
+    font-size: x-large;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    #intro{
+        min-height: 500px;
+    }
+    #title{
+        font-size: xx-large;
+        position: relative;
+        bottom: 60px;
+    }
+    #text{
+        font-size: xx-large;
+        position: relative;
+        bottom: 60px;
+    }
+    #text-2{
+        font-size: xx-large;
+    }
+    #mypic{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    #title{
+        position: relative;
+        bottom: 60px;
+    }
+    #text{
+        position: relative;
+        bottom: 60px;
+    }
+    
+}
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        font-size:  72px;
+    }
+    #text-2{
+        font-size: 96px;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    
+}
+@media (min-width:1201px){
+    h1{
+        font-size:  72px;
+    }
+    #text-2{
+        font-size: 96px;
+    }
+}
